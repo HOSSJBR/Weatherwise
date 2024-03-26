@@ -121,20 +121,7 @@ body {
   }
 }
 
-/* Adjustments for extra-small and small viewports */
-@media (max-width: 576px) {
-  .search {
-    /* Center align search input and button on small screens */
-    text-align: center;
-  }
-  .col-md-8 {
-    /* Remove margin from the right side for the forecast section on small screens */
-    margin-right: 0;
-  }
-  .weatherforecast {
-    margin-bottom: 120px !important;
-  }
-}
+
 
 /* Adjustments for large and extra-large viewports */
 @media (min-width: 992px) {
@@ -271,5 +258,28 @@ body {
   }
   .cityname {
     font-size: 25px !important;
+  }
+}/* Adjustments for extra-small and small viewports */
+@media (max-width: 576px) {
+  .search {
+    /* Center align search input and button on small screens */
+    text-align: center;
+  }
+  .col-md-8 {
+    /* Remove margin from the right side for the forecast section on small screens */
+    margin-right: 0;
+  }
+  .weatherforecast {
+    margin-bottom: 120px !important;
+  }
+  .weathercolumns img {
+    width: 40px;
+  }
+  .weatherforecast {
+    padding: 20px !important;
+    height: 290px !important;
+  }
+  .weathercolumns {
+    height: auto;
   }
 }
